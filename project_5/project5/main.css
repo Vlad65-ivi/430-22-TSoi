@@ -1,0 +1,126 @@
+body {
+    background-image: url(backgr.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: center;
+    left: 65%;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .img-container {
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 1000px;
+    font-family: "Montserrat", serif;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        margin-left: 0%;
+    }
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+a.hover:hover {
+    text-decoration: underline;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DCCD72;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.password-hint {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    display: none;
+}
+
+.password-strength {
+    margin-top: 5px;
+}
+
+.password-strength div {
+    height: 5px;
+    border-radius: 4px;
+}
+
+.weak {
+    width: 33%;
+    background-color: red;
+}
+
+.medium {
+    width: 66%;
+    background-color: orange;
+}
+
+.strong {
+    width: 100%;
+    background-color: green;
+}

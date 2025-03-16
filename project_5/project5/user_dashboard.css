@@ -1,0 +1,15 @@
+
+button {
+    width: 304px; 
+    height: 85.00px; 
+    color: white; 
+    background-color: black; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    padding: 0px 0px 0px 0px; 
+    position: absolute; 
+    top: 750px; 
+    text-align: center; 
+    font-size: 40px;
+    border-radius: 20px;
+}
